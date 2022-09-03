@@ -1,6 +1,5 @@
 # Mono Theme for Gnome
-Simple theme with nothing extra to use on a regular basis.  
-Theme tested on Manjaro Linux and Fedora with Wayland.
+Simple theme with nothing extra to use on a regular basis. Theme tested on Manjaro Linux and Fedora with Wayland.
 
 <p align="center"><b>Gtk4 apps</b></p>
 <p align="center">
@@ -29,15 +28,20 @@ Theme tested on Manjaro Linux and Fedora with Wayland.
 Download theme [here.](https://github.com/witalihirsch/Mono-gtk-theme/releases)
 
 ## Installation
-Currently only dark theme is available for Gtk4. Light theme and theme for Gtk3 coming soon.
+Currently only dark theme is available for Gtk4. Light theme and theme for Gtk3 coming soon.  
+Move theme folder to `/home/user/.themes/`
 
 ### GTK4
 To install the Gtk4 theme move the contents of `gtk4.0` to `home/user/.config/gtk4.0`.
 
 ### Flatpak
 To install themes on Flatpak apps use these commands:  
-```sudo flatpak override --filesystem=$HOME/.themes```  
-```sudo flatpak override --env=GTK_THEME=MonoTheme``` - theme name
+```pwsh
+sudo flatpak override --filesystem=$HOME/.themes
+```  
+```pwsh
+sudo flatpak override --env=GTK_THEME=MonoTheme
+```
 
 ### Gnome-shell
 To install the gnome-shell theme, move the entire theme folder to `/home/user/.themes` and select gnome-shell theme in Gnome Tweaks.  
